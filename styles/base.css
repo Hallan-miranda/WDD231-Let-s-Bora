@@ -1,0 +1,78 @@
+
+
+
+
+/*************************************Header******************************/
+
+header
+{
+display: grid;
+grid-template-columns: 30px auto 48px;
+padding: 5px 0px 5px 10px;
+border: darkgray;
+column-gap: 8px;
+align-items: center;
+
+}
+
+header img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hamburguer::before{
+    content: "\2630"
+}
+
+.hamburguer.show::before{
+    content: "\00D7"
+}
+
+.navigation{
+    display: none;
+}
+
+.navigation.show{
+    display: block;
+
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    list-style-type: none;
+
+}
+
+/*************************************footer******************************/
+
+footer
+{
+    background-color: darkgray;
+    padding: 1rem 15px;
+    text-align: center;
+}
+
+.media
+{
+display: flex;
+justify-content: center;
+column-gap: 5px;
+}
+.media a
+{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid gray;
+width: 44px;
+height: 44px;
+border-radius: 22px;
+}
+.media a:hover{
+    background-color: grey;
+}

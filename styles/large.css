@@ -1,0 +1,23 @@
+@media only screen and (min-width: 608px){
+
+    header, nav, body, header{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    header{
+        grid-template-columns: 30px auto;
+    }
+    .navigation{
+        display: block;
+    }
+
+    .navigation ul{
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .hamburguer{
+        display: none;
+    }
+
+}
