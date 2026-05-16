@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;;
+}
+
+/*****************************Main************************************/
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 1rem 0px;
+    text-shadow: 0 0 30px #111;
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    gap: 2rem;
+}
+
+#cards p{
+    text-align: center;
+}
+
+#cards img{
+    width: 240px;
+}
+section{
+    display: block;
+    justify-self: center;
+    gap: 10px;
+    background-color: #4A777A ;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+
+
+
+/*****************************Footer************************************/
+
+footer{
+    text-align: center;
+    margin: 30px;
+    padding: 15pxs;
+}
