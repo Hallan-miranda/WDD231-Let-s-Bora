@@ -1,6 +1,6 @@
 @media only screen and (min-width: 608px){
 
-    header, nav, body, header{
+    header, nav, body, footer{
         max-width: 900px;
         margin: 0 auto;
     }

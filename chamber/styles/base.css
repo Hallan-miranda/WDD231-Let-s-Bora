@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;;
+}
+
+
+
+
+
+/****************footer*****************/
+footer
+{
+    background-color: darkgray;
+    padding: 1rem 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.media
+{
+display: flex;
+justify-content: center;
+column-gap: 5px;
+}
+.media a
+{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid gray;
+width: 44px;
+height: 44px;
+border-radius: 22px;
+}
+.media a:hover{
+    background-color: grey;
+}
