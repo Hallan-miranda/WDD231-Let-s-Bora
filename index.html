@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="shortcut icon" href="images/favicon.ico" >
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -22,12 +22,33 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current" href="#">Home</li>
-            <li href="#">Chamber Assigment</li>
-            <li href="#">Final Project</li>
+            <a class="current" href="#"><li >Home</li></a>
+            <a class="current" href="#"><li>Chamber Assigment</li></a>
+            <a class="current" href="#">    <li>Final Project</li></a>
         </ul>
     </nav>
     <main>
+        <h1>Home</h1>
+        <div class="container">
+            <section class="about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur blanditiis aliquid. Provident, fuga beatae. Repellendus rerum quo excepturi iure nam labore, recusandae nisi voluptas fugit cupiditate architecto fugiat modi!</p>
+            </section>
+            <section class="photo">
+                <h2>Hallan Miranda</h2>
+                <img src="images/profile.jpg" alt="Hallan Photo">
+            </section>
+            <section class="certificate">
+                <h2>Web Certificate Courses</h2>
+                <button id="all">ALL</button>
+                <button id="wdd">WDD</button>
+                <button id="cse">CSE</button>
+                <div id="courses">
+
+                </div>
+                <p>The total credits for curses listed above is: <span id="credits"></span></p>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="media">
@@ -35,9 +56,12 @@
             <a href="https://www.instagram.com/hallan_mota/" target="_blank"><img src="images/instagram.svg" alt="instagram icon" width="16" height="16"></a>
             <a href="https://www.linkedin.com/in/hallan-miranda-4562a71ab/" target="_blank"><img src="images/linkedin.svg" alt="linkedin incon" width="16" height="16"></a>
         </div>
-        <p>copyRigth | current year</p>
-        <p>Last Modified: </p>
+        <p>&copy <span id="currentYear"></span> | Halan Miranda | Londrina, Brasil</p>
+        <span id="currentYear"></span>
+        <p>Last modification: <span id="lastModified"></span></p>
     </footer>
-    <script src="scripts/navigation.js"></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </body>
 </html>
