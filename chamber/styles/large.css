@@ -4,4 +4,46 @@
         max-width: 900px;
         margin: 0 auto;
     }
+
+
+    .navigation{
+        display: block;
+        width: 100%;
+
+    }
+    
+    .navigation ul{
+        flex-direction: row;
+        justify-content: start;
+    }
+    .hamburguer{
+        display: none;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 30px;
+    }
+
+    .container h1{
+        grid-column: 1/5;
+    }
+    .container h2{
+        width: 100%;
+        background-color: #000000;
+        color: #ffffff;
+        margin-top: 0;
+    }
+    .container section{
+        background-color: darkgray;
+        max-height: 290px;
+        height: 100%;
+    }
+
+    .events{
+        grid-column: 1/3;
+    }
+
+
 }
