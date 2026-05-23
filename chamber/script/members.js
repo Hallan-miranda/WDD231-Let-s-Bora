@@ -46,7 +46,7 @@ function creatCardGrid(cards, addTo){
         p4.textContent = `Site: ${card.url}`;
         
 
-        img.setAttribute("src", card.photoUrl);
+        img.setAttribute("src", card.image);
         img.setAttribute("alt", `image of ${card.name}`);
         img.setAttribute("loading", "lazy");
         img.setAttribute("width", "40px");
