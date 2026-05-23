@@ -1,31 +1,71 @@
 {
     "memeber":[    
         {
-            "name": "Hallan Miranda",
-            "tag": "volunter",
-            "photoUrl": "https://hallan-miranda.github.io/WDD231-Let-s-Bora/images/profile.jpg",
+            "name": "Tesla",
+            "adress": "1 Tesla Road Austin, TX 78725",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tesla_logo.png/500px-Tesla_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+            "email": "press@tesla.com",
+            "phone": "(877) 798-3752 ",
+            "website": "https://www.tesla.com/",
+            "level": "3"
+        },
+
+        {
+            "name": "Ford",
+            "adress": "Av Tiradentes, 1015 Jardim Shangri-La A",
+            "image": "https://pt.wikipedia.org/wiki/Ficheiro:Ford_Motor_Company_Logo.svg",
+            "email": "https://www.ford.com.br/",
+            "phone": "43 3771 6200",
+            "website": "https://www.ford.com.br/",
+            "level": "3"
+        },
+        {
+            "name": "Biggs",
+            "adress": "Av. Maringá, 2555, Londrina - PR",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KtB-qMNMWPGqvFMOipidoBRpDBWPUigFJQ&s",
             "email": "teste@londrinacc.org",
-            "phone": "43 2345-6789",
-            "url": "hallan-miranda.com"
+            "phone": "43 3345-3000",
+            "website": "https://www.biggs.com.br/",
+            "level": "3"
         },
-
         {
-            "name": "Mayara Miranda",
-            "tag": "volunter",
-            "photoUrl": "https://hallan-miranda.github.io/WDD231-Let-s-Bora/chamber/image/Mayara.png",
-            "email": "teste1@londrinacc.org",
-            "phone": "43 2345-6789",
-            "url": "Mayara-miranda.com"
+            "name": "OutBack",
+            "adress": "Rodovia Celso Garcia, km 377, 0 - Gleba Fazendo Palhano",
+            "image": "https://www.studioinfinity.com.br/uploads/clientes/2018/05/50-1527178778.png",
+            "email": "contato@outback.com.br",
+            "phone": "43 3322-1230",
+            "website": "https://www.outback.com.br/",
+            "level": "3"
         },
-
         {
-            "name": "Nathan Miranda",
-            "tag": "Baby",
-            "photoUrl": "https://hallan-miranda.github.io/WDD231-Let-s-Bora/chamber/image/Nathan.jpeg",
-            "email": "teste2@londrinacc.org",
-            "phone": "43 2345-6789",
-            "url": "Nathan-miranda.com"
+            "name": "The Best Açai",
+            "adress": "Av. Juscelino Kubitscheck, 1743 - Ipiranga",
+            "image": "https://staginganotaai.s3.us-west-2.amazonaws.com/produtos/6686ed94af020700191eb5951743459939508blob",
+            "email": "contato@thebestacai.com.br",
+            "phone": "43 99633-026",
+            "website": "https://thebestacai.com.br/",
+            "level": "3"
+        },
+        {
+            "name": "Borelluccio ",
+            "adress": "Av. Maringá, 1410 - Vitoria, Londrina - PR",
+            "image": "https://instagram.fldb1-1.fna.fbcdn.net/v/t51.2885-19/44704570_2179297855447902_6032647635884572672_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fldb1-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2gFeu-oFgSgQwIBYVd8K4vKxzwyeQsIaYqse-04-prYB-w-_Y4T_M3_h-nYLSDszcHg&_nc_ohc=b3YoV4fbwZ4Q7kNvwFan7xX&_nc_gid=68YueuXYhcXo2Tpl1DxHsQ&edm=AEYEu-QBAAAA&ccb=7-5&oh=00_Af4wKo-t4axGh1v2C1mue67iTo5hOvZ9mcbDxmytRSy5PA&oe=6A177B87&_nc_sid=ead929",
+            "email": "contato@borelluccio.com.br",
+            "phone": "43 3328-0860",
+            "website": "http://borelluccio.com.br/",
+            "level": "3"
+        },
+        {
+            "name": "Burguer King",
+            "adress": "Av. Higienópolis, 964 - Centro, Londrina - PR,",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/500px-Burger_King_2020.svg.png",
+            "email": "contato@burgerking.com.br",
+            "phone": "no Phone",
+            "website": "https://burgerking.harmo.me/",
+            "level": "3"
         }
+
+        
 
 
     ]
