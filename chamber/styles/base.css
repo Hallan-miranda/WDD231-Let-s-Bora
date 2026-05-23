@@ -153,6 +153,10 @@ header img
     margin: 0px;
     background-color: #000000;
     color: #ffffff;
+    max-width: 100%;
+}
+
+.companys.list .card p{
     width: 100%;
 }
 
