@@ -43,7 +43,7 @@ function creatCardGrid(cards, addTo){
         h3.textContent = `${card.name}`;
         p1.textContent = `${card.adress}`;
         p3.textContent = `Phone: ${card.phone}`;
-        p4.textContent = `Site: ${card.url}`;
+        p4.textContent = `Site: ${card.website}`;
         
 
         img.setAttribute("src", card.image);
@@ -52,7 +52,7 @@ function creatCardGrid(cards, addTo){
         img.setAttribute("width", "40px");
         img.setAttribute("heigth", "40px");
 
-        div2.appendChild(p2);
+        div2.appendChild(p1);
         div2.appendChild(p3);
         div2.appendChild(p4);
     
@@ -89,7 +89,7 @@ function creatCardList(cards, addTo){
         p3.textContent = `${card.phone}`;
         a.textContent = `Datails`;
         
-        a.setAttribute('href', card.url)
+        a.setAttribute('href', card.website)
 
         div2.appendChild(p2);
         div2.appendChild(p3);
